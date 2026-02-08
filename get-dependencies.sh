@@ -9,6 +9,7 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     gcr           \
     gd            \
+    ffmpeg        \
     kwindowsystem \
     kguiaddons    \
     kwayland5     \
