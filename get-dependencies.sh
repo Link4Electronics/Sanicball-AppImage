@@ -6,7 +6,10 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-#pacman -Syu --noconfirm PACKAGENAME
+pacman -Syu --noconfirm \
+    libdecor \
+    libudev  \
+    libusb
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
@@ -16,7 +19,6 @@ get-debloated-pkgs --add-common --prefer-nano
 #make-aur-package PACKAGENAME
 
 # If the application needs to be manually built that has to be done down here
-
 wget https://archive.org/download/sanicball-archive/Sanicball%20Archive/Game%20versions/Linux/sanicball-v0.8.2-linux.zip
 bsdtar -xvf ./sanicball-v0.8.2-linux.zip
 rm -f *.zip
