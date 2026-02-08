@@ -18,3 +18,7 @@ get-debloated-pkgs --add-common --prefer-nano
 # If the application needs to be manually built that has to be done down here
 
 wget https://archive.org/download/sanicball-archive/Sanicball%20Archive/Game%20versions/Linux/sanicball-v0.8.2-linux.zip
+tar -xvf ./sanicball-v0.8.2-linux.zip
+rm -f ./*.zip
+mv -v ./Sanicball_v0.8.2_Data ./AppDir/bin
+mv -v Sanicball_v0.8.2.x86_64 ./AppDir/bin
