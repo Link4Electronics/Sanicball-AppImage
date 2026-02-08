@@ -11,16 +11,18 @@ pacman -Syu --noconfirm \
     freeglut      \
     gcr           \
     gd            \
-    kwindowsystem \
-    kguiaddons    \
-    kwayland5     \
     libdecor      \
-    libxaw        \
-    qt5-base      \
-    qt5-x11extras \
-    qt6-5compat   \
     rrdtool       \
     sdl2
+    #kwindowsystem \
+    #kguiaddons    \
+    #kwayland5     \
+    
+    #libxaw        \
+    #qt5-base      \
+    #qt5-x11extras \
+    #qt6-5compat   \
+    
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
