@@ -11,8 +11,11 @@ pacman -Syu --noconfirm \
     gd            \
     kwindowsystem \
     kguiaddons    \
+    kwayland5     \
     libdecor      \
     libxaw        \
+    qt5-base      \
+    qt5-x11extras \
     sdl2
 
 echo "Installing debloated packages..."
