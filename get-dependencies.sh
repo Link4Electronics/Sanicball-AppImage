@@ -8,8 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     libdecor \
-    libudev  \
-    libusb
+    libudev
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
