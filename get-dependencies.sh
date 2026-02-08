@@ -16,6 +16,7 @@ pacman -Syu --noconfirm \
     libxaw        \
     qt5-base      \
     qt5-x11extras \
+    rrdtool       \
     sdl2
 
 echo "Installing debloated packages..."
