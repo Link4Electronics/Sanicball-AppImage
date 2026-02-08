@@ -7,11 +7,11 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    ffmpeg        \
-    freeglut      \
     libdecor      \
-    rrdtool       \
     sdl2
+    #ffmpeg        \
+    #freeglut      \
+    #rrdtool       \
     #gcr           \
     #gd            \
     #kwindowsystem \
