@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Sanicball-AppImage)](https://github.com/pkgforge-dev/Sanicball-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/Link4Electronics/Sanicball-AppImage/blob/main/AppDir/sanicball.png" width="128" />
+  <img src="https://github.com/pkgforge-dev/Sanicball-AppImage/blob/main/AppDir/sanicball.png" width="128" />
 </p>
 
 
